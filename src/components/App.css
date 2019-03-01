@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+li {
+  padding-left: 1vw;
+  padding-right: 1vw;
+  text-decoration: none;
+ /* width: 20vw; */
+  padding-top: 1vw;
+}
+
+a {
+  text-decoration: none;
+  color: papayawhip;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+img {
+  height: 35vh;
+}
