@@ -1,60 +1,69 @@
 import React from 'react';
 import Gallery from 'react-photo-gallery';
 import img1 from './smallImages/img (1).jpg';
-import img2 from './images/img (10).JPG';
-import img3 from './images/img (3).JPG';
-import img4 from './images/img (4).JPG';
-import img5 from './images/img (5).JPG';
-import img6 from './images/img (6).JPG';
-import img11 from './images/img (15).jpg';
-import img12 from './images/img (12).jpg';
-import img13 from './images/img (13).JPG';
+import img2 from './smallImages/img (10).jpg';
+import img3 from './smallImages/img (3).jpg';
+import img4 from './smallImages/img (4).jpg';
+import img5 from './smallImages/img (5).jpg';
+import img6 from './smallImages/img (6).jpg';
+import img11 from './smallImages/img (15).jpg';
+import img12 from './smallImages/img (12).jpg';
+import img13 from './smallImages/img (13).jpg';
 
 const photos = [
     {
         src: img1,
         width: 1,
-        height: 1
+        height: 1,
+        alt: ''
     },
     {
         src: img2,
         width: 1,
-        height: 2
+        height: 2,
+        alt: ''
     },
     {
         src: img3,
         width: 1,
-        height: 1
+        height: 1,
+        alt: ''
     },
     {
         src: img4,
         width: 1,
-        height: 1
+        height: 1,
+        alt: ''
     },
     {
         src: img5,
         width: 1,
-        height: 1
+        height: 1,
+        alt: ''
     },
     {
         src: img6,
         width: 1,
-        height: 3
+        height: 3,
+        alt: ''
     },
     {
         src: img11,
         width: 1,
-        height: 1
+        height: 1,
+        alt: ''
     },
     {
         src: img12,
         width: 1,
-        height: 1
+        height: 1,
+        alt: ''
     },
     {
         src: img13,
         width: 1,
-        height: 1
+        height: 1,
+        alt: ''
     }
 ];
 
