@@ -6,8 +6,7 @@ class Cafes extends Component {
   constructor(){
     super();
     this.state = {
-      cafes: [],
-      cafes2: []
+      cafes: []
     }
   }
 
@@ -18,7 +17,7 @@ class Cafes extends Component {
     })
     .then(response => response.json())
     .then(cafes=> {
-      this.setState({cafes:cafes, cafes2: cafes})
+      this.setState({cafes:cafes})
     })
   }
 
@@ -44,8 +43,8 @@ class Cafes extends Component {
   }
 
   getData = () => {
-    if(this.state.cafes2)
-      return this.state.cafes2;
+    if(this.state.cafes)
+      return this.state.cafes;
     return [];
   }
 
