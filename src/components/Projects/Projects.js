@@ -151,7 +151,17 @@ const Projects = ({ match }) => (
       <Route
         exact
         path={match.url}
-        render={() => <p className='purple fw7'>Please select a project above</p>}
+        render={() => 
+          <div className='purple'>
+            <p className='fw7'>About</p>
+            <p>Most of my projects based on JS5, HTML5, CSS3 and React</p>
+            <p>I am using NodeJS and Express to backend side</p>
+            <p>I used to use PostgreSql to storage data</p>
+            <p>In some projects I added tests (Jest/ Mocha & Chai)</p>
+            <p>Some projects are dockerized</p>
+            <p className='fw7'>Please select a project above</p>
+          </div>
+        }
       />
     </div>
     </div>

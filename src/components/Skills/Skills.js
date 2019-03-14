@@ -114,8 +114,12 @@ const Skills = ({ match }) => (
         path={match.url}
         render={() => 
           <div>
-            <p className='f4 fw7 yellow'>Select a skill category</p>
-            <p className='f5'>I rate each skill from 1 (beginner) to 5 (master)</p>
+            <p className='f3-ns f4 fw7 yellow'>About</p>    
+            <p className='f4-ns f5'>I gained a lot of skills at Gdansk University of Technology</p>
+            <p className='f4-ns f5'>I have Bachelor degree in Computer Science</p>
+            <p className='f4-ns f5'>I am learning a lot by myself making pages & apps</p>
+            <p className='f4-ns f5'>I enjoyed internet web courses</p>
+            <p className='f4-ns f5 fw7 yellow'>Select a skill category to check out</p>
           </div>
         }/>
     </div>

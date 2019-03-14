@@ -7,7 +7,7 @@ const HobbyHome = () => (
   <div className='f3-ns f4 mh4 pv2 washed-red justify-center shadow-2'>
     <p>I think lifework balance is really important</p>
     <p>I give myself some time to relax and do things which i love</p>
-    <p>If you want to get to know me better <span className='fw7 yellow'>choose above the category</span></p>
+    <p>If you want to know me better <span className='fw7 yellow'>choose above the category</span></p>
     <p>Wellcome!</p>
   </div>
 );
