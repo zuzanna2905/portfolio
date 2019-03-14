@@ -1,5 +1,5 @@
 import React from 'react';
-import me from './smallImages/me.jpg';
+import me from './me.jpg';
 
 const Home = () => (
     <div className='washed-blue ma1 pa1'>

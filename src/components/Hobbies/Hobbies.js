@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Link } from "react-router-dom";
-import Cafes from './Cafes';
-import Travels from './Travels';
+import Cafes from './Cafes/Cafes';
+import Travels from './Travels/Travels';
 
 const HobbyHome = () => (
   <div className='f3-ns f4 mh4 pv2 washed-red justify-center shadow-2'>

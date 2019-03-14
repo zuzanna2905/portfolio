@@ -100,6 +100,20 @@ const Travels = () => (
   </div>
 );
 
+const Blog = () => (
+  <div>
+    <p className='f3 fw5 purple'>Blog</p>
+    <p className='fw6 dark-green'>Idea</p>
+    <p>A server side rendering site with some blog posts.</p>
+    <p>Contact form, About page</p>
+    <p className='fw6 dark-green'>Technologies</p>
+    <p>The app is based on HTML5 & CSS3 (styled-components library)</p>
+    <p>Pages are written in JS & using NextJS</p>
+    <p>No tests</p>
+    <p className='f6 fw6 purple'>Click to view project</p>
+  </div>
+);
+
 const Projects = ({ match }) => (
   <div className='washed-blue ma1 pa1'>
     <ul className='list flex flex-wrap justify-center f4-ns f5'>
@@ -121,6 +135,9 @@ const Projects = ({ match }) => (
         <li>
           <Link to={`${match.url}/travels`}>Travles Page</Link>
         </li>
+        <li>
+          <Link to={`${match.url}/blog`}>Blog Page</Link>
+        </li>
       </ul>
       
     <div className='f4-ns f5 mh4 pv2 washed-blue justify-center shadow-4'>
@@ -130,6 +147,7 @@ const Projects = ({ match }) => (
       <Route path={`${match.url}/cafes`} component={Cafes} />
       <Route path={`${match.url}/coffee`} component={Coffee} />
       <Route path={`${match.url}/travels`} component={Travels} />
+      <Route path={`${match.url}/blog`} component={Blog} />
       <Route
         exact
         path={match.url}

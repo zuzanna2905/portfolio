@@ -1,23 +1,26 @@
 import React from "react";
+import ProgressBar from './ProgressBar/ProgressBar';
 import { Route, Link } from "react-router-dom";
 
 const Web = () => (
     <div>
       <p className='f4'>Web</p>
       <ul className='justify-center f5-ns f6 fw6'>
-        <li>ES5 4/5</li>
-        <li>HTML5 4/5</li>
-        <li>CSS3 4/5</li>
-        <li>RWD 4/5</li>
-        <li>Bootstrap 4/5</li>
-        <li>Babel 4/5</li>
-        <li>SASS/SCSS 3/5</li>
-        <li>React 3/5</li>
-        <li>Webpack 2/5</li>
-        <li>NodeJS 2/5</li>
-        <li>Jest 2/5</li>
-        <li>Redux 1/5</li>
-        <li>Enzyme 1/5</li>
+        <ProgressBar percentage={80} name={'ES5'}/>
+        <ProgressBar percentage={80} name={'HTML5'}/>
+        <ProgressBar percentage={80} name={'CSS3'}/>
+        <ProgressBar percentage={80} name={'RWD'}/>
+        <ProgressBar percentage={80} name={'Bootstrap'}/>
+        <ProgressBar percentage={80} name={'Babel'}/>
+        <ProgressBar percentage={60} name={'SASS/SCSS'}/>
+        <ProgressBar percentage={60} name={'React'}/>
+        <ProgressBar percentage={40} name={'Webpack'}/>
+        <ProgressBar percentage={40} name={'NodeJS'}/>
+        <ProgressBar percentage={40} name={'Jest'}/>
+        <ProgressBar percentage={40} name={'Mocha/Chai'}/>
+        <ProgressBar percentage={40} name={'NextJS'}/>
+        <ProgressBar percentage={20} name={'Redux'}/>
+        <ProgressBar percentage={20} name={'Enzyme'}/>
       </ul>
       <p></p>
     </div>
@@ -27,11 +30,11 @@ const Databases = () => (
   <div>
   <p className='f4'>Databases</p>
   <ul className='justify-center f5-ns f6 fw6'>
-    <li>PostgreSQL 4/5</li>
-    <li>SQL 4/5</li>
-    <li>MS SQL 3/5</li>
-    <li>MySql 3/5</li>
-    <li>MongoDB 3/5</li>
+    <ProgressBar percentage={80} name={'PostgreSQL'}/>
+    <ProgressBar percentage={80} name={'SQL'}/>
+    <ProgressBar percentage={60} name={'MS SQL'}/>
+    <ProgressBar percentage={60} name={'MySQL'}/>
+    <ProgressBar percentage={60} name={'MongoDB'}/>
   </ul>
   <p></p>
   </div>
@@ -41,13 +44,13 @@ const Programming = () => (
   <div>
   <p className='f4'>Programming</p>
   <ul className='justify-center f5-ns f6 fw6'>
-    <li>C# 4/5</li>
-    <li>JS 4/5</li>
-    <li>C++ 4/5</li>
-    <li>C 3/5</li>
-    <li>Java 3/5</li>
-    <li>R 2/5</li>
-    <li>Python 2/5</li>
+    <ProgressBar percentage={80} name={'C#'}/>
+    <ProgressBar percentage={80} name={'JS'}/>
+    <ProgressBar percentage={80} name={'C++'}/>
+    <ProgressBar percentage={60} name={'C'}/>
+    <ProgressBar percentage={60} name={'Java'}/>
+    <ProgressBar percentage={40} name={'Python'}/>
+    <ProgressBar percentage={40} name={'R'}/>
   </ul>
   <p></p>
   </div>
@@ -57,9 +60,11 @@ const Languages = () => (
   <div>
   <p className='f4'>Languages</p>
   <ul className='justify-center f5-ns f6 fw6'>
-    <li>English: writting 4/5 & speaking 3/5</li>
-    <li>Spanish: writting 2/5 & speaking 3/5</li>
-    <li>Polish: mother language</li>
+    <ProgressBar percentage={100} name={'Polish'}/>
+    <ProgressBar percentage={80} name={'English Speaking'}/>
+    <ProgressBar percentage={60} name={'English Writting'}/>
+    <ProgressBar percentage={40} name={'Spanish Speaking'}/>
+    <ProgressBar percentage={60} name={'Spanish Writting'}/>
   </ul>
   <p></p>
   </div>
@@ -69,10 +74,11 @@ const Others = () => (
   <div>
   <p className='f4'>Others</p>
   <ul className='justify-center f5-ns f6 fw6'>
-    <li>Git 4/5</li>
-    <li>Unity Engine 4/5</li>
-    <li>Agile 3/5</li>
-    <li>CMake 2/5</li>
+    <ProgressBar percentage={80} name={'Git'}/>
+    <ProgressBar percentage={80} name={'Unity Engine'}/>
+    <ProgressBar percentage={60} name={'Agile'}/>
+    <ProgressBar percentage={40} name={'CMake'}/>
+    <ProgressBar percentage={40} name={'Docker'}/>
   </ul>
   <p></p>
   </div>

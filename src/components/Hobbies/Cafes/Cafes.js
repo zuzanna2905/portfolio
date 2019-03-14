@@ -55,10 +55,10 @@ class Cafes extends Component {
       <p className='f4-ns f5'>There are my best Tricity cafes</p>
       <p className='f5-ns f6'>*Rating from 1 to 5</p>
       <ReactTable
-      data={this.getData()}
-      columns={this.getColumns()}
-      defaultPageSize={6}
-    />  
+        data={this.getData()}
+        columns={this.getColumns()}
+        defaultPageSize={6}
+      />  
     </div>
   )}
 }
