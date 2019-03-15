@@ -114,6 +114,39 @@ const Blog = () => (
   </div>
 );
 
+const SmartBrain = () => (
+  <div>
+    <p className='f3 fw5 purple'>Smart Brain</p>
+    <p className='fw6 dark-green'>Idea</p>
+    <p>Dockerized React App</p>
+    <p>Using clarifai API recognized faces on images</p>
+    <p>To use app you have to register and sign in to your account</p>
+    <p>This is a part of Udemy Web Development course</p>
+    <p className='fw6 dark-green'>Technologies</p>
+    <p>The app is based on React, NodeJS (ExpressJS) and PostgreSQL</p>
+    <p>Frontend: React, JavaScript, CSS3, HTML5, NodeJS, Tachyons</p>
+    <p>Server Side: JavaScript, NodeJS, ExpressJS</p>
+    <p>Database: PostgreSQL</p>
+    <p>Tests: Mocha/Chai</p>
+    <p>Dockerized</p>
+    <p className='f6 fw6 purple'>Click to view project</p>
+  </div>
+);
+
+const RoboFriends = () => (
+  <div>
+    <p className='f3 fw5 purple'>Robo Friends App</p>
+    <p className='fw6 dark-green'>Idea</p>
+    <p>A simple app with some Robots and Search box to filter them</p>
+    <p>This is a part of Udemy Web Development course</p>
+    <p className='fw6 dark-green'>Technologies</p>
+    <p>The app is based on HTML5 & CSS3 (tachyons) & JS</p>
+    <p>App is using React and Redux</p>
+    <p>Tests: Jest/Enzyme</p>
+    <p className='f6 fw6 purple'>Click to view project</p>
+  </div>
+);
+
 const Projects = ({ match }) => (
   <div className='washed-blue ma1 pa1'>
     <ul className='list flex flex-wrap justify-center f4-ns f5'>
@@ -138,6 +171,12 @@ const Projects = ({ match }) => (
         <li>
           <Link to={`${match.url}/blog`}>Blog Page</Link>
         </li>
+        <li>
+          <Link to={`${match.url}/smartbrain`}>Smart Brain App</Link>
+        </li>
+        <li>
+          <Link to={`${match.url}/robofriends`}>RoboFriends App</Link>
+        </li>
       </ul>
       
     <div className='f4-ns f5 mh4 pv2 washed-blue justify-center shadow-4'>
@@ -148,6 +187,8 @@ const Projects = ({ match }) => (
       <Route path={`${match.url}/coffee`} component={Coffee} />
       <Route path={`${match.url}/travels`} component={Travels} />
       <Route path={`${match.url}/blog`} component={Blog} />
+      <Route path={`${match.url}/smartbrain`} component={SmartBrain} />
+      <Route path={`${match.url}/robofriends`} component={RoboFriends} />
       <Route
         exact
         path={match.url}

@@ -61,10 +61,10 @@ const Languages = () => (
   <p className='f4'>Languages</p>
   <ul className='justify-center f5-ns f6 fw6'>
     <ProgressBar percentage={100} name={'Polish'}/>
-    <ProgressBar percentage={80} name={'English Speaking'}/>
-    <ProgressBar percentage={60} name={'English Writting'}/>
-    <ProgressBar percentage={40} name={'Spanish Speaking'}/>
-    <ProgressBar percentage={60} name={'Spanish Writting'}/>
+    <ProgressBar percentage={80} name={'English Writting'}/>
+    <ProgressBar percentage={70} name={'English Speaking'}/>
+    <ProgressBar percentage={60} name={'Spanish Speaking'}/>
+    <ProgressBar percentage={40} name={'Spanish Writting'}/>
   </ul>
   <p></p>
   </div>

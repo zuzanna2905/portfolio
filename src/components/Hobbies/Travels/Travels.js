@@ -77,6 +77,7 @@ const Travels = () => (
         <p className='f4-ns f5'>I was at the End of the World - Ushuaia and on the Carribean coast - Tayrona Park</p>
         <p className='f4-ns f5'>I was at the Pacific coast (Lima) and Atlantic coast (Buenos Aires)</p>
         <p className='f4-ns f5'>I sailed on the Amazon and hiking in amazing mountains Torres del Paine</p>
+        <p className='f4-ns f5'>This was a great school of life</p>
     </div>
   );
 
