@@ -114,12 +114,12 @@ const Skills = ({ match }) => (
         path={match.url}
         render={() => 
           <div>
-            <p className='f3-ns f4 fw7 yellow'>About</p>    
+            <p className='f3-ns f4 fw7 dark-green'>About</p>    
             <p className='f4-ns f5'>I have gained a lot of skills at Gdansk University of Technology</p>
             <p className='f4-ns f5'>I have a Bachelor degree in Computer Science</p>
             <p className='f4-ns f5'>I learn a lot by myself making pages & apps</p>
             <p className='f4-ns f5'>I enjoy internet web courses</p>
-            <p className='f4-ns f5 fw7 yellow'>Select a skill category to check out</p>
+            <p className='f4-ns f5 fw7 dark-green'>Select a skill category to check out</p>
           </div>
         }/>
     </div>

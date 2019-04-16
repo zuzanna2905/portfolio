@@ -79,8 +79,11 @@ class App extends Component {
           <Route path="/hobbies" component={Hobbies} />
           <Route path="/contact" component={Contact} />   
         </div>     
-        <div className="footer pv4 ph3 ph5-m ph6-l light-blue">
-          <Link to="/contact">Contact me</Link>
+        <div className="footer f6 pv4 ph3 ph5-m ph6-l light-blue">
+          <a className='mh1' href='https://github.com/zuzanna2905'>Git</a>
+          <Link to="/contact">Contact</Link>
+          <a className='mh1' href='http://tiny.cc/Zuzanna' rel='noopener noreferrer' target='_blank' download='PusiewiczZuzanna'>CV</a>
+          <p>Copyright 2019 Zuzanna Pusiewicz</p>
         </div>
       </div>
     </Router>
