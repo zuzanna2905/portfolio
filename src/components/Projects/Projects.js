@@ -13,7 +13,6 @@ const Farmer = () => (
     <p>To using the application loging on is needed.</p>
     <p>The data is stored in database.</p>
     <p className='fw6 dark-green'>Technologies</p>
-    <p>The app is based on React, Express JS and PostgreSQL</p>
     <p>Frontend: React, JavaScript, CSS3, HTML5, Bootstrap, NodeJS</p>
     <p>Server Side: JavaScript, NodeJS, ExpressJS</p>
     <p>Database: PostgreSQL</p>
@@ -45,7 +44,6 @@ const Spendings = () => (
     <p>To using the application logging in is needed.</p>
     <p>The data is stored in database.</p>
     <p className='fw6 dark-green'>Technologies</p>
-    <p>The app is based on React, Express JS and PostgreSQL</p>
     <p>Frontend: React/Redux, JavaScript, CSS3, HTML5, NodeJS</p>
     <p>Server Side: JavaScript, NodeJS, ExpressJS</p>
     <p>Database: PostgreSQL</p>
@@ -65,6 +63,31 @@ const Spendings = () => (
   </div>
 );
 
+const Burger = () => (
+  <div>
+    <div className='w-50-l w-100'>
+    <p className='f4 fw5 purple'>Burger</p>
+    <p className='fw6 dark-green'>Idea</p>
+    <p>An application to ordering burgers</p>
+    <p>Possibility to manipulating on burger (adding, deleting ingredients).</p>
+    <p>Profile page with previous orders</p>
+    <p>To using the application logging in is needed. (not yet)</p>
+    <p>The data is stored in Firebase database.</p>
+    <p className='fw6 dark-green'>Technologies</p>
+    <p>Frontend: React/Redux, JavaScript, CSS3, HTML5, NodeJS</p>
+    <p>Database: Firebase</p>
+    <p>Tests: not yet</p>
+    <p><a href='https://github.com/zuzanna2905/Burger'
+      target="_blank" rel="noopener noreferrer"
+      className='f6 fw6 purple'>Click to view frontend code
+    </a></p> 
+    </div>
+    <div>
+    <img src='' alt=''/>
+    </div>
+  </div>
+);
+
 const Cafes = () => (
   <div>    
   <div className='w-50-l w-100'>
@@ -76,7 +99,7 @@ const Cafes = () => (
     <p>Coffee gallery</p>
     <p>Contact form</p>
     <p className='fw6 dark-green'>Technologies</p>
-    <p>The page is based on simple HTML5 & SCSS/CSS3</p>    
+    <p>The page is based on HTML5 & SCSS/CSS3</p>    
     <a href='https://github.com/zuzanna2905/TricityCoffeehouses'
       target="_blank" rel="noopener noreferrer"
       className='f6 fw6 purple'>Click to view code
@@ -97,7 +120,7 @@ const Coffee = () => (
     <p>Few information about coffee</p>
     <p>Contact form</p>
     <p className='fw6 dark-green'>Technologies</p>
-    <p>The page is based on simple HTML5 & CSS3</p>
+    <p>The page is based on HTML5 & CSS3</p>
     <a href='https://github.com/zuzanna2905/Coffee'
       target="_blank" rel="noopener noreferrer"
       className='f6 fw6 purple'>Click to view code
@@ -119,7 +142,6 @@ const TaskManager = () => (
     <p>To using the application loging on is needed.</p>
     <p>The data is stored in database.</p>
     <p className='fw6 dark-green'>Technologies</p>
-    <p>The app is based on React, Express JS and PostgreSQL</p>
     <p>Frontend: React, JavaScript, CSS3, HTML5, NodeJS</p>
     <p>Server Side: JavaScript, NodeJS, ExpressJS</p>
     <p>Database: PostgreSQL</p>
@@ -192,7 +214,6 @@ const SmartBrain = () => (
     <p>To use app you have to register and sign in to your account</p>
     <p>This is a part of Udemy Web Development course</p>
     <p className='fw6 dark-green'>Technologies</p>
-    <p>The app is based on React, NodeJS (ExpressJS) and PostgreSQL</p>
     <p>Frontend: React, JavaScript, CSS3, HTML5, NodeJS, Tachyons</p>
     <p>Server Side: JavaScript, NodeJS, ExpressJS</p>
     <p>Database: PostgreSQL</p>
@@ -252,38 +273,41 @@ class Projects extends Component {
     const {match} = this.props;
     const navigation = this.state.showProjects ? <ul className='list flex flex-wrap justify-center f5-ns f6'>
       <li className='br2 ba b--white-30 justify-center pa2 mh3-ns mv1 w-10-l w-20-m'>
-        <Link to={`${match.url}/farmer`}>Farmer</Link>
+        <Link to={`${match.url}/farmer`} onClick={this.showProjects}>Farmer</Link>
       </li>
       <li className='br2 ba b--white-30 justify-center pa2 mh3-ns mv1 w-10-l w-20-m'>
-        <Link to={`${match.url}/spendings`}>Spendings</Link>
+        <Link to={`${match.url}/spendings`} onClick={this.showProjects}>Spendings</Link>
       </li>
       <li className='br2 ba b--white-30 justify-center pa2 mh3-ns mv1 w-10-l w-20-m'>
-        <Link to={`${match.url}/cafes`}>Cafes</Link>
+        <Link to={`${match.url}/burger`} onClick={this.showProjects}>Burger</Link>
       </li>
       <li className='br2 ba b--white-30 justify-center pa2 mh3-ns mv1 w-10-l w-20-m'>
-        <Link to={`${match.url}/coffee`}>Coffee</Link>
+        <Link to={`${match.url}/cafes`} onClick={this.showProjects}>Cafes</Link>
       </li>
       <li className='br2 ba b--white-30 justify-center pa2 mh3-ns mv1 w-10-l w-20-m'>
-        <Link to={`${match.url}/taskmanager`}>Task Manager</Link>
+        <Link to={`${match.url}/coffee`} onClick={this.showProjects}>Coffee</Link>
       </li>
       <li className='br2 ba b--white-30 justify-center pa2 mh3-ns mv1 w-10-l w-20-m'>
-        <Link to={`${match.url}/travels`}>Travles</Link>
+        <Link to={`${match.url}/taskmanager`} onClick={this.showProjects}>Task Manager</Link>
       </li>
       <li className='br2 ba b--white-30 justify-center pa2 mh3-ns mv1 w-10-l w-20-m'>
-        <Link to={`${match.url}/blog`}>Blog</Link>
+        <Link to={`${match.url}/travels`} onClick={this.showProjects}>Travles</Link>
       </li>
       <li className='br2 ba b--white-30 justify-center pa2 mh3-ns mv1 w-10-l w-20-m'>
-        <Link to={`${match.url}/smartbrain`}>Smart Brain</Link>
+        <Link to={`${match.url}/blog`} onClick={this.showProjects}>Blog</Link>
       </li>
       <li className='br2 ba b--white-30 justify-center pa2 mh3-ns mv1 w-10-l w-20-m'>
-        <Link to={`${match.url}/robofriends`}>Robots Friends</Link>
+        <Link to={`${match.url}/smartbrain`} onClick={this.showProjects}>Smart Brain</Link>
+      </li>
+      <li className='br2 ba b--white-30 justify-center pa2 mh3-ns mv1 w-10-l w-20-m'>
+        <Link to={`${match.url}/robofriends`} onClick={this.showProjects}>Robots Friends</Link>
       </li>
     </ul> : null;
     return (
       <div className='washed-blue ma1 pa1'>
         <button className='white br2 ba ma2 b--white-30 justify-center bg-transparent pa2 w-40' onClick={this.showProjects}>Show projects</button>
         {navigation} 
-        <div className='f4-ns f5 mh4 pv2 washed-blue justify-center shadow-4'>
+        <div className='f5-ns f6 mh4 pv2 washed-blue justify-center shadow-4'>
           <Route path={`${match.url}/farmer`} component={Farmer} />
           <Route path={`${match.url}/spendings`} component={Spendings} />
           <Route path={`${match.url}/taskmanager`} component={TaskManager} />
@@ -293,15 +317,16 @@ class Projects extends Component {
           <Route path={`${match.url}/blog`} component={Blog} />
           <Route path={`${match.url}/smartbrain`} component={SmartBrain} />
           <Route path={`${match.url}/robofriends`} component={RoboFriends} />
+          <Route path={`${match.url}/burger`} component={Burger} />
           <Route
             exact
             path={match.url}
             render={() => 
-              <div className='white'>
+              <div className='white f4-ns f5'>
                 <p className='fw7 dark-green'>About</p>
                 <p>Most of my latest projects based on ES6, HTML5, CSS3 and React/Redux</p>
                 <p>I use NodeJS and Express to backend side</p>
-                <p>I use PostgreSql to storage data</p>
+                <p>I use PostgreSql/Firebase to storage data</p>
                 <p>In some projects I add tests (Jest/ Mocha & Chai)</p>
                 <p>Some projects are dockerized</p>
                 <p className='fw7 purple'>Please select a project above</p>

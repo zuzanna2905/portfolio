@@ -103,7 +103,7 @@ const Skills = ({ match }) => (
         <Link to={`${match.url}/languages`}>Languages</Link>
       </li>
     </ul>
-    <div className='f3-ns f4 mh4 pv2 washed-red justify-center shadow-4'>
+    <div className='f3-ns f4 mh4 pv2 white justify-center shadow-4'>
       <Route path={`${match.url}/web`} component={Web} />
       <Route path={`${match.url}/databases`} component={Databases} />
       <Route path={`${match.url}/languages`} component={Languages} />
