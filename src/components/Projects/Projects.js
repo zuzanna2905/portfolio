@@ -17,7 +17,14 @@ const Farmer = () => (
     <p>Server Side: JavaScript, NodeJS, ExpressJS</p>
     <p>Database: PostgreSQL</p>
     <p>Tests: not yet</p>
-    <p className='f6 fw6 purple'>Click to view project</p>
+    <p><a href='https://github.com/zuzanna2905/Farmer'
+      target="_blank" rel="noopener noreferrer"
+      className='f6 fw6 purple'>Click to view frontend code 
+    </a></p>
+    <a href='https://github.com/zuzanna2905/FarmerAPI'
+      target="_blank" rel="noopener noreferrer"
+      className='f6 fw6 purple'>Click to view server code
+    </a>
   </div>
 );
 
@@ -29,15 +36,22 @@ const Spendings = () => (
     <p>Data tables with informations about your spendings.</p>
     <p>Possibility to manipulating on data (adding, editing, deleting).</p>
     <p>Spendings charts in choosen dates.</p>
-    <p>To using the application loging on is needed.</p>
+    <p>To using the application logging in is needed.</p>
     <p>The data is stored in database.</p>
     <p className='fw6 dark-green'>Technologies</p>
     <p>The app is based on React, Express JS and PostgreSQL</p>
-    <p>Frontend: React, JavaScript, CSS3, HTML5, NodeJS</p>
+    <p>Frontend: React/Redux, JavaScript, CSS3, HTML5, NodeJS</p>
     <p>Server Side: JavaScript, NodeJS, ExpressJS</p>
     <p>Database: PostgreSQL</p>
     <p>Tests: not yet</p>
-    <p className='f6 fw6 purple'>Click to view project</p>
+    <p><a href='https://github.com/zuzanna2905/Spendings'
+      target="_blank" rel="noopener noreferrer"
+      className='f6 fw6 purple'>Click to view frontend code
+    </a></p>
+    <a href='https://github.com/zuzanna2905/SpendingsAPI'
+      target="_blank" rel="noopener noreferrer"
+      className='f6 fw6 purple'>Click to view server code
+    </a>
   </div>
 );
 
@@ -51,8 +65,11 @@ const Cafes = () => (
     <p>Coffee gallery</p>
     <p>Contact form</p>
     <p className='fw6 dark-green'>Technologies</p>
-    <p>The page is based on simple HTML5 & SCSS/CSS3</p>
-    <p className='f6 fw6 purple'>Click to view project</p>
+    <p>The page is based on simple HTML5 & SCSS/CSS3</p>    
+    <a href='https://github.com/zuzanna2905/TricityCoffeehouses'
+      target="_blank" rel="noopener noreferrer"
+      className='f6 fw6 purple'>Click to view code
+    </a>
   </div>
 );
 
@@ -65,7 +82,10 @@ const Coffee = () => (
     <p>Contact form</p>
     <p className='fw6 dark-green'>Technologies</p>
     <p>The page is based on simple HTML5 & CSS3</p>
-    <p className='f6 fw6 purple'>Click to view project</p>
+    <a href='https://github.com/zuzanna2905/Coffee'
+      target="_blank" rel="noopener noreferrer"
+      className='f6 fw6 purple'>Click to view code
+    </a>
   </div>
 );
 
@@ -83,7 +103,14 @@ const TaskManager = () => (
     <p>Server Side: JavaScript, NodeJS, ExpressJS</p>
     <p>Database: PostgreSQL</p>
     <p>Tests: not yet</p>
-    <p className='f6 fw6 purple'>Click to view project</p>
+    <p><a href='https://github.com/zuzanna2905/TaskManager/tree/simple'
+      target="_blank" rel="noopener noreferrer"
+      className='f6 fw6 purple'>Click to view Frontend code
+    </a></p>
+    <a href='https://github.com/zuzanna2905/taskManagerAPI'
+      target="_blank" rel="noopener noreferrer"
+      className='f6 fw6 purple'>Click to view server code
+    </a>
   </div>
 );
 
@@ -96,7 +123,10 @@ const Travels = () => (
     <p className='fw6 dark-green'>Technologies</p>
     <p>The app is based on HTML5 & CSS3</p>
     <p>Photo gallery based on css-grid & flexbox</p>
-    <p className='f6 fw6 purple'>Click to view project</p>
+    <a href='https://github.com/zuzanna2905/travel'
+      target="_blank" rel="noopener noreferrer"
+      className='f6 fw6 purple'>Click to view code
+    </a>
   </div>
 );
 
@@ -110,7 +140,10 @@ const Blog = () => (
     <p>The app is based on HTML5 & CSS3 (styled-components library)</p>
     <p>Pages are written in JS & using NextJS</p>
     <p>No tests</p>
-    <p className='f6 fw6 purple'>Click to view project</p>
+    <a href='https://github.com/zuzanna2905/blog'
+      target="_blank" rel="noopener noreferrer"
+      className='f6 fw6 purple'>Click to view code
+    </a>
   </div>
 );
 
@@ -129,7 +162,18 @@ const SmartBrain = () => (
     <p>Database: PostgreSQL</p>
     <p>Tests: Mocha/Chai</p>
     <p>Dockerized</p>
-    <p className='f6 fw6 purple'>Click to view project</p>
+    <p><a href='https://sleepy-mesa-24434.herokuapp.com/'
+      target="_blank" rel="noopener noreferrer"
+      className='f6 fw6 purple'>Click to view project
+    </a></p>
+    <p><a href='https://github.com/zuzanna2905/facerecognition'
+      target="_blank" rel="noopener noreferrer"
+      className='f6 fw6 purple'>Click to view Frontend code
+    </a></p>
+    <a href='https://github.com/zuzanna2905/facerecognitionAPI'
+      target="_blank" rel="noopener noreferrer"
+      className='f6 fw6 purple'>Click to view server code
+    </a>
   </div>
 );
 
@@ -143,7 +187,10 @@ const RoboFriends = () => (
     <p>The app is based on HTML5 & CSS3 (tachyons) & JS</p>
     <p>App is using React and Redux</p>
     <p>Tests: Jest/Enzyme</p>
-    <p className='f6 fw6 purple'>Click to view project</p>
+    <a href='https://robotsfriends.herokuapp.com/'
+      target="_blank" rel="noopener noreferrer"
+      className='f6 fw6 purple'>Click to view project
+    </a>
   </div>
 );
 
@@ -157,13 +204,13 @@ const Projects = ({ match }) => (
           <Link to={`${match.url}/spendings`}>Spendings App</Link>
         </li>
         <li>
-          <Link to={`${match.url}/taskmanager`}>Task Manager App</Link>
-        </li>
-        <li>
           <Link to={`${match.url}/cafes`}>Cafes Page</Link>
         </li>
         <li>
           <Link to={`${match.url}/coffee`}>Coffee Page</Link>
+        </li>
+        <li>
+          <Link to={`${match.url}/taskmanager`}>Task Manager App</Link>
         </li>
         <li>
           <Link to={`${match.url}/travels`}>Travles Page</Link>

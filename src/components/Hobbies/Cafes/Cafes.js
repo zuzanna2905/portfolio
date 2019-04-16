@@ -1,45 +1,43 @@
 import React, {Component} from 'react';
 import ReactTable from 'react-table';
+import axios from '../../../axios';
 import 'react-table/react-table.css';
 
 class Cafes extends Component {
   constructor(){
     super();
     this.state = {
-      cafes: []
+      cafes: [],
+      columns: [
+        {Header: 'Name', accessor: 'name'},
+        {Header: 'Staff', accessor: 'staff', Cell: props => props.value.toFixed(2)},
+        {Header: 'Food', accessor: 'food', Cell: props => props.value.toFixed(2)},
+        {Header: 'Coffee', accessor: 'coffee', Cell: props => props.value.toFixed(2)},
+        {Header: 'Atmosphere', accessor: 'atmosphere', Cell: props => props.value.toFixed(2)},
+        {Header: 'Rate', accessor: 'rate', Cell: props => props.value.toFixed(2)},
+        {Header: 'Visits', accessor: 'visits'}
+      ]
     }
   }
 
   getCafes = () => {
-    fetch('http://localhost:3001/cafes', {
-      method: 'get',
-      headers: {'Content-Type' : 'application/json'}
+    axios.get('/cafes.json')
+    .then(res => { 
+        let cafes = [];
+        for(let key in res.data){
+            cafes.push({
+                ...res.data[key]
+            })
+        }
+        this.setState({cafes:cafes})
     })
-    .then(response => response.json())
-    .then(cafes=> {
-      this.setState({cafes:cafes})
+    .catch(err => {
+      console.log(err);
     })
   }
 
   componentDidMount = () => {
     this.getCafes();
-  }
-
-  getColumns = () => {
-    if(this.state.cafes[0]){
-    let keys = this.state.cafes.map(o => {
-      return Object.keys(o).map(a => a)
-    })
-    keys = keys[0];
-    let columns = keys.map(k => {
-      return {
-        Header: k.toUpperCase(),
-        accessor: k
-      }
-    })
-    return columns;
-    }
-    return [{Header: 'Cafe', accesor: 'cafe'}];
   }
 
   getData = () => {
@@ -49,6 +47,7 @@ class Cafes extends Component {
   }
 
   render() { 
+    const { columns } = this.state;
     return (
     <div className='washed-blue ma1 pa1'>
       <p className='f4-ns f5'>I love good coffee & I am a great home barista</p>
@@ -58,7 +57,7 @@ class Cafes extends Component {
       <span className='f5-ns f6'> (rating from 1 to 5)</span></p>
       <ReactTable
         data={this.getData()}
-        columns={this.getColumns()}
+        columns={columns}
         defaultPageSize={6}
       />  
     </div>
