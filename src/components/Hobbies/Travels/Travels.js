@@ -69,7 +69,7 @@ const photos = [
 const Travels = () => (
     <div className='white fw4 mh1 ph1'>
         <p className='f3-ns f4'>Photos from my last South America trip</p>
-        <p className='f4-ns f5'>I spent there over 6 months. I fall in love with Colombia and I want to go back there soon</p>
+        <p className='f4-ns f5'>I was there over 6 months in 2018. I fell in love with Colombia and I would like to go back there soon</p>
         <div className='flex flex-wrap justify-center'>
             {photos.map(p => {
                 return (
@@ -80,11 +80,11 @@ const Travels = () => (
                 )})}
         </div>
         <p className='f4-ns f5'>It was a difficult decision but I do not regret anything</p>
-        <p className='f4-ns f5'>I met great people, try a lot of new flovors (give me more empanadas!), was in beautiful places like Galapagos Islands</p>
+        <p className='f4-ns f5'>I met great people, try a lot of new flovors (give me more empanadas!), I was in beautiful places like Galapagos Islands</p>
         <p className='f4-ns f5'>I was at the End of the World - Ushuaia and on the Carribean coast - Tayrona Park</p>
         <p className='f4-ns f5'>I was at the Pacific coast (Lima) and Atlantic coast (Buenos Aires)</p>
-        <p className='f4-ns f5'>I sailed on the Amazon and hiking in amazing mountains Torres del Paine</p>
-        <p className='f4-ns f5'>This was a great school of life</p>
+        <p className='f4-ns f5'>I sailed on the Amazon and hiked in amazing mountains Torres del Paine</p>
+        <p className='f4-ns f5'>It was a great school of life</p>
     </div>
   );
 

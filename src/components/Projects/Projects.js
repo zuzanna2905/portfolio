@@ -3,6 +3,7 @@ import { Route, Link } from "react-router-dom";
 
 const Farmer = () => (
   <div>
+    <div className='w-50-l w-100'>
     <p className='f3 fw5 purple'>Farmer</p>
     <p className='fw6 dark-green'>Idea</p>
     <p>An application to managing a farm business.</p>
@@ -25,11 +26,16 @@ const Farmer = () => (
       target="_blank" rel="noopener noreferrer"
       className='f6 fw6 purple'>Click to view server code
     </a>
+    </div>
+    <div>
+      <img src='' alt=''/>
+    </div>
   </div>
 );
 
 const Spendings = () => (
   <div>
+    <div className='w-50-l w-100'>
     <p className='f3 fw5 purple'>Spendings</p>
     <p className='fw6 dark-green'>Idea</p>
     <p>A simple application to managing your daily spendings.</p>
@@ -51,12 +57,17 @@ const Spendings = () => (
     <a href='https://github.com/zuzanna2905/SpendingsAPI'
       target="_blank" rel="noopener noreferrer"
       className='f6 fw6 purple'>Click to view server code
-    </a>
+    </a>  
+    </div>
+    <div>
+    <img src='' alt=''/>
+    </div>
   </div>
 );
 
 const Cafes = () => (
-  <div>
+  <div>    
+  <div className='w-50-l w-100'>
     <p className='f3 fw5 purple'>Cafes</p>
     <p className='fw6 dark-green'>Idea</p>
     <p>Four-page side about my best way to relax.</p>
@@ -69,12 +80,17 @@ const Cafes = () => (
     <a href='https://github.com/zuzanna2905/TricityCoffeehouses'
       target="_blank" rel="noopener noreferrer"
       className='f6 fw6 purple'>Click to view code
-    </a>
+    </a>    
+    </div>
+    <div>
+    <img src='' alt=''/>
+    </div>
   </div>
 );
 
 const Coffee = () => (
   <div>
+  <div className='w-50-l w-100'>
     <p className='f3 fw5 purple'>Coffee</p>
     <p className='fw6 dark-green'>Idea</p>
     <p>Single simple page about coffee</p>
@@ -86,11 +102,16 @@ const Coffee = () => (
       target="_blank" rel="noopener noreferrer"
       className='f6 fw6 purple'>Click to view code
     </a>
+    </div>
+    <div>
+    <img src='' alt=''/>
+    </div>
   </div>
 );
 
 const TaskManager = () => (
   <div>
+  <div className='w-50-l w-100'>
     <p className='f3 fw5 purple'>Task Manager</p>
     <p className='fw6 dark-green'>Idea</p>
     <p>A simple application to managing your daily tasks.</p>
@@ -111,11 +132,16 @@ const TaskManager = () => (
       target="_blank" rel="noopener noreferrer"
       className='f6 fw6 purple'>Click to view server code
     </a>
+    </div>
+    <div>
+    <img src='' alt=''/>
+    </div>
   </div>
 );
 
 const Travels = () => (
   <div>
+  <div className='w-50-l w-100'>
     <p className='f3 fw5 purple'>Travels</p>
     <p className='fw6 dark-green'>Idea</p>
     <p>A simple responsive page with travles photos.</p>
@@ -127,11 +153,16 @@ const Travels = () => (
       target="_blank" rel="noopener noreferrer"
       className='f6 fw6 purple'>Click to view code
     </a>
+    </div>
+    <div>
+    <img src='' alt=''/>
+    </div>
   </div>
 );
 
 const Blog = () => (
   <div>
+  <div className='w-50-l w-100'>
     <p className='f3 fw5 purple'>Blog</p>
     <p className='fw6 dark-green'>Idea</p>
     <p>A server side rendering site with some blog posts.</p>
@@ -144,11 +175,16 @@ const Blog = () => (
       target="_blank" rel="noopener noreferrer"
       className='f6 fw6 purple'>Click to view code
     </a>
+    </div>
+    <div>
+    <img src='' alt=''/>
+    </div>
   </div>
 );
 
 const SmartBrain = () => (
   <div>
+  <div className='w-50-l w-100'>
     <p className='f3 fw5 purple'>Smart Brain</p>
     <p className='fw6 dark-green'>Idea</p>
     <p>Dockerized React App</p>
@@ -174,11 +210,16 @@ const SmartBrain = () => (
       target="_blank" rel="noopener noreferrer"
       className='f6 fw6 purple'>Click to view server code
     </a>
+    </div>
+    <div>
+    <img src='' alt=''/>
+    </div>
   </div>
 );
 
 const RoboFriends = () => (
   <div>
+  <div className='w-50-l w-100'>
     <p className='f3 fw5 purple'>Robo Friends App</p>
     <p className='fw6 dark-green'>Idea</p>
     <p>A simple app with some Robots and Search box to filter them</p>
@@ -191,38 +232,42 @@ const RoboFriends = () => (
       target="_blank" rel="noopener noreferrer"
       className='f6 fw6 purple'>Click to view project
     </a>
+    </div>
+      <div>
+      <img src='' alt=''/>
+      </div>
   </div>
 );
 
 const Projects = ({ match }) => (
   <div className='washed-blue ma1 pa1'>
-    <ul className='list flex flex-wrap justify-center f4-ns f5'>
-        <li>
-          <Link to={`${match.url}/farmer`}>Farmer App</Link>
+    <ul className='list flex flex-wrap justify-center f5-ns f6'>
+        <li className='br2 ba b--white-30 justify-center pa2 mh3 mv1 w-20-ns w-40'>
+          <Link to={`${match.url}/farmer`}>Farmer</Link>
         </li>
-        <li>
-          <Link to={`${match.url}/spendings`}>Spendings App</Link>
+        <li className='br2 ba b--white-30 justify-center pa2 mh3 mv1 w-20-ns w-40'>
+          <Link to={`${match.url}/spendings`}>Spendings</Link>
         </li>
-        <li>
-          <Link to={`${match.url}/cafes`}>Cafes Page</Link>
+        <li className='br2 ba b--white-30 justify-center pa2 mh3 mv1 w-20-ns w-40'>
+          <Link to={`${match.url}/cafes`}>Cafes</Link>
         </li>
-        <li>
-          <Link to={`${match.url}/coffee`}>Coffee Page</Link>
+        <li className='br2 ba b--white-30 justify-center pa2 mh3 mv1 w-20-ns w-40'>
+          <Link to={`${match.url}/coffee`}>Coffee</Link>
         </li>
-        <li>
-          <Link to={`${match.url}/taskmanager`}>Task Manager App</Link>
+        <li className='br2 ba b--white-30 justify-center pa2 mh3 mv1 w-20-ns w-40'>
+          <Link to={`${match.url}/taskmanager`}>Task Manager</Link>
         </li>
-        <li>
-          <Link to={`${match.url}/travels`}>Travles Page</Link>
+        <li className='br2 ba b--white-30 justify-center pa2 mh3 mv1 w-20-ns w-40'>
+          <Link to={`${match.url}/travels`}>Travles</Link>
         </li>
-        <li>
-          <Link to={`${match.url}/blog`}>Blog Page</Link>
+        <li className='br2 ba b--white-30 justify-center pa2 mh3 mv1 w-20-ns w-40'>
+          <Link to={`${match.url}/blog`}>Blog</Link>
         </li>
-        <li>
-          <Link to={`${match.url}/smartbrain`}>Smart Brain App</Link>
+        <li className='br2 ba b--white-30 justify-center pa2 mh3 mv1 w-20-ns w-40'>
+          <Link to={`${match.url}/smartbrain`}>Smart Brain</Link>
         </li>
-        <li>
-          <Link to={`${match.url}/robofriends`}>RoboFriends App</Link>
+        <li className='br2 ba b--white-30 justify-center pa2 mh3 mv1 w-20-ns w-40'>
+          <Link to={`${match.url}/robofriends`}>Robots Friends</Link>
         </li>
       </ul>
       
@@ -240,14 +285,14 @@ const Projects = ({ match }) => (
         exact
         path={match.url}
         render={() => 
-          <div className='purple'>
-            <p className='fw7'>About</p>
-            <p>Most of my projects based on JS5, HTML5, CSS3 and React</p>
-            <p>I am using NodeJS and Express to backend side</p>
-            <p>I used to use PostgreSql to storage data</p>
-            <p>In some projects I added tests (Jest/ Mocha & Chai)</p>
+          <div className='white'>
+            <p className='fw7 dark-green'>About</p>
+            <p>Most of my latest projects based on ES6, HTML5, CSS3 and React/Redux</p>
+            <p>I use NodeJS and Express to backend side</p>
+            <p>I use PostgreSql to storage data</p>
+            <p>In some projects I add tests (Jest/ Mocha & Chai)</p>
             <p>Some projects are dockerized</p>
-            <p className='fw7'>Please select a project above</p>
+            <p className='fw7 purple'>Please select a project above</p>
           </div>
         }
       />

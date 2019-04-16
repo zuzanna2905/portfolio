@@ -29,7 +29,7 @@ class Contact extends React.Component {
     return (
       <form className="white b--dark-10 w-100 w-50-m w-40-l mt4 pa2 center">
         <fieldset id="send_message" className="ba b--transparent ph0 mh0">
-          <legend className="f3 fw6 pt4 mh0">Leave me a message</legend>
+          <legend className="f4 fw6 pt4 mh0">Leave me a message</legend>
           <div className="mt3">
             <label className="db fw6 lh-copy f6" htmlFor="email">Email</label>
             <input 

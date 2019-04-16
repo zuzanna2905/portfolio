@@ -53,21 +53,21 @@ class App extends Component {
   return (
     <Router>
       <div className='App'>
-        <div className='shadow-1 f4-ns f5 pv1'>
-          <ul className='list flex flex-wrap ph4 justify-center'>
-            <li>
+        <div className='shadow-1 f5-ns f6 pv1'>
+          <ul className='list flex ph4-ns ph1 justify-end'>
+            <li className='br2 ba b--white-30 justify-center pa2 ml3-ns mh1 mv1'>
               <Link to="/"> Home </Link>
             </li>
-            <li>
+            <li className='br2 ba b--white-30 justify-center pa2 ml3-ns mh1 mv1'>
               <Link to="/projects">Projects</Link>
             </li>
-            <li>
+            <li className='br2 ba b--white-30 justify-center pa2 ml3-ns mh1 mv1'>
               <Link to="/skills">Skills</Link>
             </li>
-            <li>
+            <li className='br2 ba b--white-30 justify-center pa2 ml3-ns mh1 mv1'>
               <Link to="/hobbies">Hobbies</Link>
             </li>
-            <li>
+            <li className='br2 ba b--white-30 justify-center pa2 ml3-ns mh1 mv1'>
               <Link to="/contact">Contact</Link>
             </li>
           </ul>

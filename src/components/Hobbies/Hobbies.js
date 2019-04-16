@@ -4,7 +4,7 @@ import Cafes from './Cafes/Cafes';
 import Travels from './Travels/Travels';
 
 const HobbyHome = () => (
-  <div className='f3-ns f4 mh4 pv2 washed-red justify-center shadow-2'>
+  <div className='f4-ns f5 mh4 pa2 justify-center shadow-2'>
     <p>I think lifework balance is really important</p>
     <p>I give myself some time to relax and do things which i love</p>
     <p>If you want to know me better <span className='fw7 yellow'>choose above the category</span></p>
@@ -14,11 +14,11 @@ const HobbyHome = () => (
 
 const Hobbies = ({ match }) => (
     <div className='washed-blue ma1 pa1'>
-      <ul className='list flex flex-wrap justify-center f4-ns f5'>
-        <li>
+      <ul className='list flex flex-wrap justify-center f5-ns f6'>
+        <li className='br2 ba b--white-30 justify-center pa2 ml3-ns mh1 mv1'>
           <Link to={`${match.url}/cafes`}>Coffee</Link>
         </li>
-        <li>
+        <li className='br2 ba b--white-30 justify-center pa2 ml3-ns mh1 mv1'>
           <Link to={`${match.url}/travels`}>Travels</Link>
         </li>
       </ul>

@@ -49,7 +49,7 @@ class Cafes extends Component {
   render() { 
     const { columns } = this.state;
     return (
-    <div className='washed-blue ma1 pa1'>
+    <div className='washed-blue mh1 pa1'>
       <p className='f4-ns f5'>I love good coffee & I am a great home barista</p>
       <p className='f4-ns f5'>I recommened you my drip coffee & Colombia beans if you want to try!</p>
       <p className='f4-ns f5'>Also I rate each place where I drank great cup</p>

@@ -6,7 +6,7 @@ const Web = () => (
     <div>
       <p className='f4'>Web</p>
       <ul className='justify-center f5-ns f6 fw6'>
-        <ProgressBar percentage={80} name={'ES5'}/>
+        <ProgressBar percentage={80} name={'ES6'}/>
         <ProgressBar percentage={80} name={'HTML5'}/>
         <ProgressBar percentage={80} name={'CSS3'}/>
         <ProgressBar percentage={80} name={'RWD'}/>
@@ -14,12 +14,12 @@ const Web = () => (
         <ProgressBar percentage={80} name={'Babel'}/>
         <ProgressBar percentage={60} name={'SASS/SCSS'}/>
         <ProgressBar percentage={60} name={'React'}/>
+        <ProgressBar percentage={60} name={'Redux'}/>
         <ProgressBar percentage={40} name={'Webpack'}/>
         <ProgressBar percentage={40} name={'NodeJS'}/>
         <ProgressBar percentage={40} name={'Jest'}/>
         <ProgressBar percentage={40} name={'Mocha/Chai'}/>
         <ProgressBar percentage={40} name={'NextJS'}/>
-        <ProgressBar percentage={20} name={'Redux'}/>
         <ProgressBar percentage={20} name={'Enzyme'}/>
       </ul>
       <p></p>
@@ -86,20 +86,20 @@ const Others = () => (
 
 const Skills = ({ match }) => (
   <div className='washed-blue ma1 pa1'>
-    <ul className='list flex flex-wrap justify-center f4-ns f5'>
-      <li>
+    <ul className='list flex flex-wrap justify-center f5-ns f6'>
+      <li className='br2 ba b--white-30 justify-center pa2 ml3-ns mh1 mv1'>
         <Link to={`${match.url}/web`}>Web</Link>
       </li>
-      <li>
+      <li className='br2 ba b--white-30 justify-center pa2 ml3-ns mh1 mv1'>
         <Link to={`${match.url}/databases`}>Databases</Link>
       </li>
-      <li>
+      <li className='br2 ba b--white-30 justify-center pa2 ml3-ns mh1 mv1'>
         <Link to={`${match.url}/programming`}>Programming</Link>
       </li>
-      <li>
+      <li className='br2 ba b--white-30 justify-center pa2 ml3-ns mh1 mv1'>
         <Link to={`${match.url}/others`}>Others</Link>
       </li>
-      <li>
+      <li className='br2 ba b--white-30 justify-center pa2 ml3-ns mh1 mv1'>
         <Link to={`${match.url}/languages`}>Languages</Link>
       </li>
     </ul>
@@ -115,10 +115,10 @@ const Skills = ({ match }) => (
         render={() => 
           <div>
             <p className='f3-ns f4 fw7 yellow'>About</p>    
-            <p className='f4-ns f5'>I gained a lot of skills at Gdansk University of Technology</p>
-            <p className='f4-ns f5'>I have Bachelor degree in Computer Science</p>
-            <p className='f4-ns f5'>I am learning a lot by myself making pages & apps</p>
-            <p className='f4-ns f5'>I enjoyed internet web courses</p>
+            <p className='f4-ns f5'>I have gained a lot of skills at Gdansk University of Technology</p>
+            <p className='f4-ns f5'>I have a Bachelor degree in Computer Science</p>
+            <p className='f4-ns f5'>I learn a lot by myself making pages & apps</p>
+            <p className='f4-ns f5'>I enjoy internet web courses</p>
             <p className='f4-ns f5 fw7 yellow'>Select a skill category to check out</p>
           </div>
         }/>
