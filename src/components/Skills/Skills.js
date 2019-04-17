@@ -6,7 +6,7 @@ const Web = () => (
     <div>
       <p className='f4'>Web</p>
       <ul className='justify-center f5-ns f6 fw6'>
-        <ProgressBar percentage={80} name={'ES6'}/>
+        <ProgressBar percentage={80} name={'JavaScript (ES6)'}/>
         <ProgressBar percentage={80} name={'HTML5'}/>
         <ProgressBar percentage={80} name={'CSS3'}/>
         <ProgressBar percentage={80} name={'RWD'}/>

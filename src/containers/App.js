@@ -6,6 +6,9 @@ import Projects from '../components/Projects/Projects';
 import Skills from '../components/Skills/Skills';
 import Hobbies from '../components/Hobbies/Hobbies';
 import Contact from '../components/Contact/Contact';
+import git from '../assets/images/git.png';
+import mail from '../assets/images/mail.png';
+import cv from '../assets/images/cv.png';
 import './App.css';
 
 // const Home = (props) => (
@@ -79,10 +82,16 @@ class App extends Component {
           <Route path="/hobbies" component={Hobbies} />
           <Route path="/contact" component={Contact} />   
         </div>     
-        <div className="footer f6 pv4 ph3 ph5-m ph6-l light-blue">
-          <a className='mh1' href='https://github.com/zuzanna2905'>Git</a>
-          <Link to="/contact">Contact</Link>
-          <a className='mh1' href='http://tiny.cc/Zuzanna' rel='noopener noreferrer' target='_blank' download='PusiewiczZuzanna'>CV</a>
+        <div className="footer f6 pv4 ph3 ph5-m ph6-l white">
+          <a className='mh1' href='https://github.com/zuzanna2905' rel='noopener noreferrer' target='_blank'>
+            <img className='h3-ns h2' src={git} alt='git'/>
+          </a>
+          <Link to="/contact">
+            <img className='h3-ns h2' src={mail} alt='mail'/>
+          </Link>
+          <a className='mh1' href='http://tiny.cc/Zuzanna' rel='noopener noreferrer' target='_blank' download='PusiewiczZuzanna'>
+            <img className='h3-ns h2' src={cv} alt='cv'/>
+          </a>
           <p>Copyright 2019 Zuzanna Pusiewicz</p>
         </div>
       </div>

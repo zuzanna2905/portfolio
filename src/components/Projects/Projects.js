@@ -4,7 +4,7 @@ import { Route, Link } from "react-router-dom";
 const Farmer = () => (
   <div>
     <div className='w-50-l w-100'>
-    <p className='f3 fw5 purple'>Farmer</p>
+    <p className='f4 fw5 purple'>Farmer</p>
     <p className='fw6 dark-green'>Idea</p>
     <p>An application to managing a farm business.</p>
     <p>Data tables with informations about farm fields, employess, machines.</p>
@@ -35,7 +35,7 @@ const Farmer = () => (
 const Spendings = () => (
   <div>
     <div className='w-50-l w-100'>
-    <p className='f3 fw5 purple'>Spendings</p>
+    <p className='f4 fw5 purple'>Spendings</p>
     <p className='fw6 dark-green'>Idea</p>
     <p>A simple application to managing your daily spendings.</p>
     <p>Data tables with informations about your spendings.</p>
@@ -73,6 +73,7 @@ const Burger = () => (
     <p>Profile page with previous orders</p>
     <p>To using the application logging in is needed. (not yet)</p>
     <p>The data is stored in Firebase database.</p>
+    <p>Project based on Udemy Course</p>
     <p className='fw6 dark-green'>Technologies</p>
     <p>Frontend: React/Redux, JavaScript, CSS3, HTML5, NodeJS</p>
     <p>Database: Firebase</p>
@@ -91,7 +92,7 @@ const Burger = () => (
 const Cafes = () => (
   <div>    
   <div className='w-50-l w-100'>
-    <p className='f3 fw5 purple'>Cafes</p>
+    <p className='f4 fw5 purple'>Cafes</p>
     <p className='fw6 dark-green'>Idea</p>
     <p>Four-page side about my best way to relax.</p>
     <p>Information cards about coffee</p>
@@ -114,7 +115,7 @@ const Cafes = () => (
 const Coffee = () => (
   <div>
   <div className='w-50-l w-100'>
-    <p className='f3 fw5 purple'>Coffee</p>
+    <p className='f4 fw5 purple'>Coffee</p>
     <p className='fw6 dark-green'>Idea</p>
     <p>Single simple page about coffee</p>
     <p>Few information about coffee</p>
@@ -135,7 +136,7 @@ const Coffee = () => (
 const TaskManager = () => (
   <div>
   <div className='w-50-l w-100'>
-    <p className='f3 fw5 purple'>Task Manager</p>
+    <p className='f4 fw5 purple'>Task Manager</p>
     <p className='fw6 dark-green'>Idea</p>
     <p>A simple application to managing your daily tasks.</p>
     <p>Possibility to adding new tasks and checking done tasks.</p>
@@ -145,7 +146,7 @@ const TaskManager = () => (
     <p>Frontend: React, JavaScript, CSS3, HTML5, NodeJS</p>
     <p>Server Side: JavaScript, NodeJS, ExpressJS</p>
     <p>Database: PostgreSQL</p>
-    <p>Tests: not yet</p>
+    <p>Tests: Jest / Mocha+Chai</p>
     <p><a href='https://github.com/zuzanna2905/TaskManager/tree/simple'
       target="_blank" rel="noopener noreferrer"
       className='f6 fw6 purple'>Click to view Frontend code
@@ -164,7 +165,7 @@ const TaskManager = () => (
 const Travels = () => (
   <div>
   <div className='w-50-l w-100'>
-    <p className='f3 fw5 purple'>Travels</p>
+    <p className='f4 fw5 purple'>Travels</p>
     <p className='fw6 dark-green'>Idea</p>
     <p>A simple responsive page with travles photos.</p>
     <p>Contact form</p>
@@ -185,7 +186,7 @@ const Travels = () => (
 const Blog = () => (
   <div>
   <div className='w-50-l w-100'>
-    <p className='f3 fw5 purple'>Blog</p>
+    <p className='f4 fw5 purple'>Blog</p>
     <p className='fw6 dark-green'>Idea</p>
     <p>A server side rendering site with some blog posts.</p>
     <p>Contact form, About page</p>
@@ -207,7 +208,7 @@ const Blog = () => (
 const SmartBrain = () => (
   <div>
   <div className='w-50-l w-100'>
-    <p className='f3 fw5 purple'>Smart Brain</p>
+    <p className='f4 fw5 purple'>Smart Brain</p>
     <p className='fw6 dark-green'>Idea</p>
     <p>Dockerized React App</p>
     <p>Using clarifai API recognized faces on images</p>
@@ -241,7 +242,7 @@ const SmartBrain = () => (
 const RoboFriends = () => (
   <div>
   <div className='w-50-l w-100'>
-    <p className='f3 fw5 purple'>Robo Friends App</p>
+    <p className='f4 fw5 purple'>Robo Friends App</p>
     <p className='fw6 dark-green'>Idea</p>
     <p>A simple app with some Robots and Search box to filter them</p>
     <p>This is a part of Udemy Web Development course</p>
@@ -273,9 +274,6 @@ class Projects extends Component {
     const {match} = this.props;
     const navigation = this.state.showProjects ? <ul className='list flex flex-wrap justify-center f5-ns f6'>
       <li className='br2 ba b--white-30 justify-center pa2 mh3-ns mv1 w-10-l w-20-m'>
-        <Link to={`${match.url}/farmer`} onClick={this.showProjects}>Farmer</Link>
-      </li>
-      <li className='br2 ba b--white-30 justify-center pa2 mh3-ns mv1 w-10-l w-20-m'>
         <Link to={`${match.url}/spendings`} onClick={this.showProjects}>Spendings</Link>
       </li>
       <li className='br2 ba b--white-30 justify-center pa2 mh3-ns mv1 w-10-l w-20-m'>
@@ -288,10 +286,13 @@ class Projects extends Component {
         <Link to={`${match.url}/coffee`} onClick={this.showProjects}>Coffee</Link>
       </li>
       <li className='br2 ba b--white-30 justify-center pa2 mh3-ns mv1 w-10-l w-20-m'>
+        <Link to={`${match.url}/farmer`} onClick={this.showProjects}>Farmer</Link>
+      </li>
+      <li className='br2 ba b--white-30 justify-center pa2 mh3-ns mv1 w-10-l w-20-m'>
         <Link to={`${match.url}/taskmanager`} onClick={this.showProjects}>Task Manager</Link>
       </li>
       <li className='br2 ba b--white-30 justify-center pa2 mh3-ns mv1 w-10-l w-20-m'>
-        <Link to={`${match.url}/travels`} onClick={this.showProjects}>Travles</Link>
+        <Link to={`${match.url}/travels`} onClick={this.showProjects}>Travels</Link>
       </li>
       <li className='br2 ba b--white-30 justify-center pa2 mh3-ns mv1 w-10-l w-20-m'>
         <Link to={`${match.url}/blog`} onClick={this.showProjects}>Blog</Link>
