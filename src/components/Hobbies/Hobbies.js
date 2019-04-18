@@ -5,10 +5,10 @@ import Travels from './Travels/Travels';
 
 const HobbyHome = () => (
   <div className='f4-ns f5 mh4 pa2 justify-center shadow-2'>
-    <p>I think lifework balance is really important</p>
-    <p>I give myself some time to relax and do things which i love</p>
+    <p>I think life-work balance is really important</p>
+    <p>I give myself some time to relax and do things I love</p>
     <p>If you want to know me better <span className='fw7 dark-green'>choose above the category</span></p>
-    <p>Wellcome!</p>
+    <p>Welcome!</p>
   </div>
 );
 

@@ -6,17 +6,17 @@ const Farmer = () => (
     <div className='w-50-l w-100'>
     <p className='f4 fw5 purple'>Farmer</p>
     <p className='fw6 dark-green'>Idea</p>
-    <p>An application to managing a farm business.</p>
-    <p>Data tables with informations about farm fields, employess, machines.</p>
-    <p>Possibility to manipulating on this data (adding, editing, deleting).</p>
-    <p>There is a lot possibilities how to extends the application: like charts.</p>
-    <p>To using the application loging on is needed.</p>
-    <p>The data is stored in database.</p>
+    <p>An application to manage a farm business.</p>
+    <p>Data tables with informations about farm fields, employees, machines.</p>
+    <p>Possibility to manipulate on this data (adding, edit, delete).</p>
+    <p>There is a lot possibilities on how to extend the application, for example charts.</p>
+    <p>To use the application logging in is needed.</p>
+    <p>The data is stored a database.</p>
     <p className='fw6 dark-green'>Technologies</p>
     <p>Frontend: React, JavaScript, CSS3, HTML5, Bootstrap, NodeJS</p>
     <p>Server Side: JavaScript, NodeJS, ExpressJS</p>
     <p>Database: PostgreSQL</p>
-    <p>Tests: not yet</p>
+    <p>Tests: to do</p>
     <p><a href='https://github.com/zuzanna2905/Farmer'
       target="_blank" rel="noopener noreferrer"
       className='f6 fw6 purple'>Click to view frontend code 
@@ -37,17 +37,17 @@ const Spendings = () => (
     <div className='w-50-l w-100'>
     <p className='f4 fw5 purple'>Spendings</p>
     <p className='fw6 dark-green'>Idea</p>
-    <p>A simple application to managing your daily spendings.</p>
+    <p>A simple application to manage your daily spendings.</p>
     <p>Data tables with informations about your spendings.</p>
-    <p>Possibility to manipulating on data (adding, editing, deleting).</p>
-    <p>Spendings charts in choosen dates.</p>
-    <p>To using the application logging in is needed.</p>
-    <p>The data is stored in database.</p>
+    <p>Possibility to manipulate on data (add, edit, delete).</p>
+    <p>Spendings charts in chosen dates.</p>
+    <p>To use the application logging in is needed.</p>
+    <p>The data is stored in a database.</p>
     <p className='fw6 dark-green'>Technologies</p>
     <p>Frontend: React/Redux, JavaScript, CSS3, HTML5, NodeJS</p>
     <p>Server Side: JavaScript, NodeJS, ExpressJS</p>
     <p>Database: PostgreSQL</p>
-    <p>Tests: not yet</p>
+    <p>Tests: to do</p>
     <p><a href='https://github.com/zuzanna2905/Spendings'
       target="_blank" rel="noopener noreferrer"
       className='f6 fw6 purple'>Click to view frontend code
@@ -68,16 +68,16 @@ const Burger = () => (
     <div className='w-50-l w-100'>
     <p className='f4 fw5 purple'>Burger</p>
     <p className='fw6 dark-green'>Idea</p>
-    <p>An application to ordering burgers</p>
-    <p>Possibility to manipulating on burger (adding, deleting ingredients).</p>
+    <p>An application to compose and order burgers</p>
+    <p>Possibility to manipulate on burger (add, delete ingredients).</p>
     <p>Profile page with previous orders</p>
-    <p>To using the application logging in is needed. (not yet)</p>
+    <p>To use the application logging in is needed. (to do)</p>
     <p>The data is stored in Firebase database.</p>
     <p>Project based on Udemy Course</p>
     <p className='fw6 dark-green'>Technologies</p>
     <p>Frontend: React/Redux, JavaScript, CSS3, HTML5, NodeJS</p>
     <p>Database: Firebase</p>
-    <p>Tests: not yet</p>
+    <p>Tests: to do</p>
     <p><a href='https://github.com/zuzanna2905/Burger'
       target="_blank" rel="noopener noreferrer"
       className='f6 fw6 purple'>Click to view frontend code
@@ -118,7 +118,7 @@ const Coffee = () => (
     <p className='f4 fw5 purple'>Coffee</p>
     <p className='fw6 dark-green'>Idea</p>
     <p>Single simple page about coffee</p>
-    <p>Few information about coffee</p>
+    <p>Some information about coffee</p>
     <p>Contact form</p>
     <p className='fw6 dark-green'>Technologies</p>
     <p>The page is based on HTML5 & CSS3</p>
@@ -138,9 +138,9 @@ const TaskManager = () => (
   <div className='w-50-l w-100'>
     <p className='f4 fw5 purple'>Task Manager</p>
     <p className='fw6 dark-green'>Idea</p>
-    <p>A simple application to managing your daily tasks.</p>
-    <p>Possibility to adding new tasks and checking done tasks.</p>
-    <p>To using the application loging on is needed.</p>
+    <p>A simple application to manage your daily tasks.</p>
+    <p>Possibility to adding new tasks and marking tasks as completed.</p>
+    <p>To use the application logging in is needed.</p>
     <p>The data is stored in database.</p>
     <p className='fw6 dark-green'>Technologies</p>
     <p>Frontend: React, JavaScript, CSS3, HTML5, NodeJS</p>
@@ -167,7 +167,7 @@ const Travels = () => (
   <div className='w-50-l w-100'>
     <p className='f4 fw5 purple'>Travels</p>
     <p className='fw6 dark-green'>Idea</p>
-    <p>A simple responsive page with travles photos.</p>
+    <p>A simple responsive page with travel photos.</p>
     <p>Contact form</p>
     <p className='fw6 dark-green'>Technologies</p>
     <p>The app is based on HTML5 & CSS3</p>
@@ -192,7 +192,7 @@ const Blog = () => (
     <p>Contact form, About page</p>
     <p className='fw6 dark-green'>Technologies</p>
     <p>The app is based on HTML5 & CSS3 (styled-components library)</p>
-    <p>Pages are written in JS & using NextJS</p>
+    <p>Pages are written in JS & use NextJS</p>
     <p>No tests</p>
     <a href='https://github.com/zuzanna2905/blog'
       target="_blank" rel="noopener noreferrer"
@@ -211,7 +211,7 @@ const SmartBrain = () => (
     <p className='f4 fw5 purple'>Smart Brain</p>
     <p className='fw6 dark-green'>Idea</p>
     <p>Dockerized React App</p>
-    <p>Using clarifai API recognized faces on images</p>
+    <p>Use clarifai API to recignize faces on images</p>
     <p>To use app you have to register and sign in to your account</p>
     <p>This is a part of Udemy Web Development course</p>
     <p className='fw6 dark-green'>Technologies</p>
@@ -325,9 +325,9 @@ class Projects extends Component {
             render={() => 
               <div className='white f4-ns f5'>
                 <p className='fw7 dark-green'>About</p>
-                <p>Most of my latest projects based on ES6, HTML5, CSS3 and React/Redux</p>
-                <p>I use NodeJS and Express to backend side</p>
-                <p>I use PostgreSql/Firebase to storage data</p>
+                <p>Most of my latest projects are based on ES6, HTML5, CSS3 and React/Redux</p>
+                <p>I use NodeJS and Express for backend side</p>
+                <p>I use PostgreSql/Firebase for data storage</p>
                 <p>In some projects I add tests (Jest/ Mocha & Chai)</p>
                 <p>Some projects are dockerized</p>
                 <p className='fw7 purple'>Please select a project above</p>

@@ -62,7 +62,7 @@ const photos = [
         src: img9,
         width: 1,
         height: 1,
-        alt: 'Tyrona Park, Colombia'
+        alt: 'Tayrona Park, Colombia'
     }
 ];
 
@@ -79,11 +79,11 @@ const Travels = () => (
                 </div>  
                 )})}
         </div>
-        <p className='f4-ns f5'>It was a difficult decision but I do not regret anything</p>
-        <p className='f4-ns f5'>I met great people, try a lot of new flovors (give me more empanadas!), I was in beautiful places like Galapagos Islands</p>
-        <p className='f4-ns f5'>I was at the End of the World - Ushuaia and on the Carribean coast - Tayrona Park</p>
-        <p className='f4-ns f5'>I was at the Pacific coast (Lima) and Atlantic coast (Buenos Aires)</p>
-        <p className='f4-ns f5'>I sailed on the Amazon and hiked in amazing mountains Torres del Paine</p>
+        <p className='f4-ns f5'>It was a difficult decision to leave everything behind but I do not regret anything</p>
+        <p className='f4-ns f5'>I met great people, tried a lot of new flavors (give me more empanadas!), I was in beautiful places like Galapagos Islands, Ecuador</p>
+        <p className='f4-ns f5'>I was at the End of the World - Ushuaia, Argentina and on the Carribean coast - Tayrona Park, Colombia</p>
+        <p className='f4-ns f5'>I was on the Pacific coast in Lima, Peru and Atlantic coast Buenos Aires, Argentina</p>
+        <p className='f4-ns f5'>I took a boat down the Amazon river in Brasil and hiked in amazing Torres del Paine National Park, Chile</p>
         <p className='f4-ns f5'>It was a great school of life</p>
     </div>
   );

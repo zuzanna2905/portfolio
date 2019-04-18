@@ -33,6 +33,7 @@ class Contact extends React.Component {
           <div className="mt3">
             <label className="db fw6 lh-copy f6" htmlFor="email">Email</label>
             <input 
+                required
                 className="pa2 br2 b--white input-reset ba bg-transparent w-100" 
                 type="email" 
                 name="email"  
@@ -42,7 +43,8 @@ class Contact extends React.Component {
           </div>
           <div className="mv3">
             <label className="db fw6 lh-copy f6" htmlFor="name">Name</label>
-            <input 
+            <input
+                required 
                 className="pa2 br2 b--white input-reset ba bg-transparent w-100" 
                 type="text" 
                 name="name"  
@@ -53,6 +55,7 @@ class Contact extends React.Component {
           <div className="mv3">
             <label className="db fw6 lh-copy f6" htmlFor="message">Message</label>
             <textarea 
+                required
                 className="b--black br2 b--white pa2 input-reset ba bg-transparent w-100"
                 name="message"  
                 id="message"

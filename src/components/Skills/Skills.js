@@ -5,6 +5,7 @@ import { Route, Link } from "react-router-dom";
 const Web = () => (
     <div>
       <p className='f4'>Web</p>
+      <p className='f6'>Skills are scaled compared to one year of professional experience</p>
       <ul className='justify-center f5-ns f6 fw6'>
         <ProgressBar percentage={80} name={'JavaScript (ES6)'}/>
         <ProgressBar percentage={80} name={'HTML5'}/>
@@ -29,9 +30,10 @@ const Web = () => (
 const Databases = () => (
   <div>
   <p className='f4'>Databases</p>
+  <p className='f6'>Skills are scaled compared to one year of professional experience</p>
   <ul className='justify-center f5-ns f6 fw6'>
+    <ProgressBar percentage={100} name={'SQL'}/>
     <ProgressBar percentage={80} name={'PostgreSQL'}/>
-    <ProgressBar percentage={80} name={'SQL'}/>
     <ProgressBar percentage={60} name={'MS SQL'}/>
     <ProgressBar percentage={60} name={'MySQL'}/>
     <ProgressBar percentage={60} name={'MongoDB'}/>
@@ -43,6 +45,7 @@ const Databases = () => (
 const Programming = () => (
   <div>
   <p className='f4'>Programming</p>
+  <p className='f6'>Skills are scaled compared to number and complexity of academic projects</p>
   <ul className='justify-center f5-ns f6 fw6'>
     <ProgressBar percentage={80} name={'C#'}/>
     <ProgressBar percentage={80} name={'JS'}/>
@@ -50,7 +53,7 @@ const Programming = () => (
     <ProgressBar percentage={60} name={'C'}/>
     <ProgressBar percentage={60} name={'Java'}/>
     <ProgressBar percentage={40} name={'Python'}/>
-    <ProgressBar percentage={40} name={'R'}/>
+    <ProgressBar percentage={20} name={'R'}/>
   </ul>
   <p></p>
   </div>
@@ -61,10 +64,10 @@ const Languages = () => (
   <p className='f4'>Languages</p>
   <ul className='justify-center f5-ns f6 fw6'>
     <ProgressBar percentage={100} name={'Polish'}/>
-    <ProgressBar percentage={80} name={'English Writting'}/>
+    <ProgressBar percentage={80} name={'English Writing'}/>
     <ProgressBar percentage={70} name={'English Speaking'}/>
-    <ProgressBar percentage={60} name={'Spanish Speaking'}/>
-    <ProgressBar percentage={40} name={'Spanish Writting'}/>
+    <ProgressBar percentage={50} name={'Spanish Speaking'}/>
+    <ProgressBar percentage={40} name={'Spanish Writing'}/>
   </ul>
   <p></p>
   </div>
@@ -73,6 +76,7 @@ const Languages = () => (
 const Others = () => (
   <div>
   <p className='f4'>Others</p>
+  <p className='f6'>Skills are scaled compared to one year of professional experience</p>
   <ul className='justify-center f5-ns f6 fw6'>
     <ProgressBar percentage={80} name={'Git'}/>
     <ProgressBar percentage={80} name={'Unity Engine'}/>
@@ -115,10 +119,10 @@ const Skills = ({ match }) => (
         render={() => 
           <div>
             <p className='f3-ns f4 fw7 dark-green'>About</p>    
-            <p className='f4-ns f5'>I have gained a lot of skills at Gdansk University of Technology</p>
-            <p className='f4-ns f5'>I have a Bachelor degree in Computer Science</p>
-            <p className='f4-ns f5'>I learn a lot by myself making pages & apps</p>
-            <p className='f4-ns f5'>I enjoy internet web courses</p>
+            <p className='f4-ns f5'>I&apos;m Computer Science graduate at Gdansk University of Technology 
+            where I learned a lot</p>
+            <p className='f4-ns f5'>I&apos;m self-learner in web development and I enjoy internet-based web development 
+            courses</p>
             <p className='f4-ns f5 fw7 dark-green'>Select a skill category to check out</p>
           </div>
         }/>

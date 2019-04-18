@@ -14,7 +14,7 @@ class Cafes extends Component {
         {Header: 'Food', accessor: 'food', Cell: props => props.value.toFixed(2)},
         {Header: 'Coffee', accessor: 'coffee', Cell: props => props.value.toFixed(2)},
         {Header: 'Atmosphere', accessor: 'atmosphere', Cell: props => props.value.toFixed(2)},
-        {Header: 'Rate', accessor: 'rate', Cell: props => props.value.toFixed(2)},
+        {Header: 'Rating', accessor: 'rate', Cell: props => props.value.toFixed(2)},
         {Header: 'Visits', accessor: 'visits'}
       ]
     }
@@ -51,9 +51,9 @@ class Cafes extends Component {
     return (
     <div className='washed-blue mh1 pa1'>
       <p className='f4-ns f5'>I love good coffee & I am a great home barista</p>
-      <p className='f4-ns f5'>I recommened you my drip coffee & Colombia beans if you want to try!</p>
+      <p className='f4-ns f5'>I recommend my drip coffee & Colombia beans if you want to try!</p>
       <p className='f4-ns f5'>Also I rate each place where I drank great cup</p>
-      <p className='f4-ns f5'>These are my best Tricity cafes
+      <p className='f4-ns f5'>These are my favorite Tricity cafes
       <span className='f5-ns f6'> (rating from 1 to 5)</span></p>
       <ReactTable
         data={this.getData()}
