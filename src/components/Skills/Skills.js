@@ -16,11 +16,12 @@ const Web = () => (
         <ProgressBar percentage={60} name={'SASS/SCSS'}/>
         <ProgressBar percentage={60} name={'React'}/>
         <ProgressBar percentage={60} name={'Redux'}/>
+        <ProgressBar percentage={50} name={'NodeJS'}/>
         <ProgressBar percentage={40} name={'Webpack'}/>
-        <ProgressBar percentage={40} name={'NodeJS'}/>
         <ProgressBar percentage={40} name={'Jest'}/>
         <ProgressBar percentage={40} name={'Mocha/Chai'}/>
         <ProgressBar percentage={40} name={'NextJS'}/>
+        <ProgressBar percentage={30} name={'TypeScript'}/>
         <ProgressBar percentage={20} name={'Enzyme'}/>
       </ul>
       <p></p>

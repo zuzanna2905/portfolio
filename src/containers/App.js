@@ -89,7 +89,7 @@ class App extends Component {
           <Link to="/contact">
             <img className='h3-ns h2' src={mail} alt='mail'/>
           </Link>
-          <a className='mh1' href='http://tiny.cc/Zuzanna' rel='noopener noreferrer' target='_blank' download='PusiewiczZuzanna'>
+          <a className='mh1' href='https://drive.google.com/open?id=10PCUiLAfEospX2Ckhz9awXF3BQ4C8Ivo' rel='noopener noreferrer' target='_blank' download='PusiewiczZuzanna'>
             <img className='h3-ns h2' src={cv} alt='cv'/>
           </a>
           <p>Copyright 2019 Zuzanna Pusiewicz</p>
