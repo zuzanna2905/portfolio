@@ -10,6 +10,7 @@ import mail from '../assets/images/mail.png';
 import cv from '../assets/images/cv.png';
 import resume from '../assets/documents/PusiewiczZuzanna.pdf'
 import './App.css';
+import Projects2 from "../components/Projects/Projects2";
 
 // const Home = (props) => (
 //   <DynamicImport load={() => import('./Home')}>
@@ -70,6 +71,9 @@ class App extends Component {
             <li className='br2 ba b--white-30 justify-center pa2 ml3-ns mh1 mv1'>
               <Link to="/hobbies">Hobbies</Link>
             </li>
+            <li className='br2 ba b--white-30 justify-center pa2 ml3-ns mh1 mv1'>
+              <Link to="/projectsNew">ProjectsNew</Link>
+            </li>
           </ul>
         </div>
         <div className='shadow-4 pb3 mh1'>
@@ -77,6 +81,7 @@ class App extends Component {
           <Route path="/projects" component={Projects} />
           <Route path="/skills" component={Skills} />
           <Route path="/hobbies" component={Hobbies} />
+          <Route path="/projectsNew" component={Projects2} />
         </div>     
         <div className="footer f6 pv4 ph3 ph5-m ph6-l white">
           <a className='mh1' href='https://github.com/zuzanna2905' rel='noopener noreferrer' target='_blank'>

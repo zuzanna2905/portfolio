@@ -3,261 +3,51 @@ import { Route, Link } from "react-router-dom";
 
 const Farmer = () => (
   <div>
-    <div className='w-50-l w-100'>
-    <p className='f4 fw5 purple'>Farmer</p>
-    <p className='fw6 dark-green'>Idea</p>
-    <p>An application to manage a farm business.</p>
-    <p>Data tables with informations about farm fields, employees, machines.</p>
-    <p>Possibility to manipulate on this data (adding, edit, delete).</p>
-    <p>There is a lot possibilities on how to extend the application, for example charts.</p>
-    <p>To use the application logging in is needed.</p>
-    <p>The data is stored a database.</p>
-    <p className='fw6 dark-green'>Technologies</p>
-    <p>Frontend: React, JavaScript, CSS3, HTML5, Bootstrap, NodeJS</p>
-    <p>Server Side: JavaScript, NodeJS, ExpressJS</p>
-    <p>Database: PostgreSQL</p>
-    <p>Tests: to do</p>
-    <p><a href='https://github.com/zuzanna2905/Farmer'
-      target="_blank" rel="noopener noreferrer"
-      className='f6 fw6 purple'>Click to view frontend code 
-    </a></p>
-    <a href='https://github.com/zuzanna2905/FarmerAPI'
-      target="_blank" rel="noopener noreferrer"
-      className='f6 fw6 purple'>Click to view server code
-    </a>
-    </div>
-    <div>
-      <img src='' alt=''/>
-    </div>
   </div>
 );
 
 const Spendings = () => (
   <div>
-    <div className='w-50-l w-100'>
-    <p className='f4 fw5 purple'>Spendings</p>
-    <p className='fw6 dark-green'>Idea</p>
-    <p>A simple application to manage your daily spendings.</p>
-    <p>Data tables with informations about your spendings.</p>
-    <p>Possibility to manipulate on data (add, edit, delete).</p>
-    <p>Spendings charts in chosen dates.</p>
-    <p>To use the application logging in is needed.</p>
-    <p>The data is stored in a database.</p>
-    <p className='fw6 dark-green'>Technologies</p>
-    <p>Frontend: React/Redux, JavaScript, CSS3, HTML5, NodeJS</p>
-    <p>Server Side: JavaScript, NodeJS, ExpressJS</p>
-    <p>Database: PostgreSQL</p>
-    <p>Tests: to do</p>
-    <p><a href='https://github.com/zuzanna2905/Spendings'
-      target="_blank" rel="noopener noreferrer"
-      className='f6 fw6 purple'>Click to view frontend code
-    </a></p>
-    <a href='https://github.com/zuzanna2905/SpendingsAPI'
-      target="_blank" rel="noopener noreferrer"
-      className='f6 fw6 purple'>Click to view server code
-    </a>  
-    </div>
-    <div>
-    <img src='' alt=''/>
-    </div>
   </div>
 );
 
 const Burger = () => (
   <div>
-    <div className='w-50-l w-100'>
-    <p className='f4 fw5 purple'>Burger</p>
-    <p className='fw6 dark-green'>Idea</p>
-    <p>An application to compose and order burgers</p>
-    <p>Possibility to manipulate on burger (add, delete ingredients).</p>
-    <p>Profile page with previous orders</p>
-    <p>To use the application logging in is needed. (to do)</p>
-    <p>The data is stored in Firebase database.</p>
-    <p>Project based on Udemy Course</p>
-    <p className='fw6 dark-green'>Technologies</p>
-    <p>Frontend: React/Redux, JavaScript, CSS3, HTML5, NodeJS</p>
-    <p>Database: Firebase</p>
-    <p>Tests: to do</p>
-    <p><a href='https://github.com/zuzanna2905/Burger'
-      target="_blank" rel="noopener noreferrer"
-      className='f6 fw6 purple'>Click to view frontend code
-    </a></p> 
-    </div>
-    <div>
-    <img src='' alt=''/>
-    </div>
   </div>
 );
 
 const Cafes = () => (
   <div>    
-  <div className='w-50-l w-100'>
-    <p className='f4 fw5 purple'>Cafes</p>
-    <p className='fw6 dark-green'>Idea</p>
-    <p>Four-page side about my best way to relax.</p>
-    <p>Information cards about coffee</p>
-    <p>Table with best cafes</p>
-    <p>Coffee gallery</p>
-    <p>Contact form</p>
-    <p className='fw6 dark-green'>Technologies</p>
-    <p>The page is based on HTML5 & SCSS/CSS3</p>    
-    <a href='https://github.com/zuzanna2905/TricityCoffeehouses'
-      target="_blank" rel="noopener noreferrer"
-      className='f6 fw6 purple'>Click to view code
-    </a>    
-    </div>
-    <div>
-    <img src='' alt=''/>
-    </div>
   </div>
 );
 
 const Coffee = () => (
   <div>
-  <div className='w-50-l w-100'>
-    <p className='f4 fw5 purple'>Coffee</p>
-    <p className='fw6 dark-green'>Idea</p>
-    <p>Single simple page about coffee</p>
-    <p>Some information about coffee</p>
-    <p>Contact form</p>
-    <p className='fw6 dark-green'>Technologies</p>
-    <p>The page is based on HTML5 & CSS3</p>
-    <a href='https://github.com/zuzanna2905/Coffee'
-      target="_blank" rel="noopener noreferrer"
-      className='f6 fw6 purple'>Click to view code
-    </a>
-    </div>
-    <div>
-    <img src='' alt=''/>
-    </div>
   </div>
 );
 
 const TaskManager = () => (
   <div>
-  <div className='w-50-l w-100'>
-    <p className='f4 fw5 purple'>Task Manager</p>
-    <p className='fw6 dark-green'>Idea</p>
-    <p>A simple application to manage your daily tasks.</p>
-    <p>Possibility to adding new tasks and marking tasks as completed.</p>
-    <p>To use the application logging in is needed.</p>
-    <p>The data is stored in database.</p>
-    <p className='fw6 dark-green'>Technologies</p>
-    <p>Frontend: React, JavaScript, CSS3, HTML5, NodeJS</p>
-    <p>Server Side: JavaScript, NodeJS, ExpressJS</p>
-    <p>Database: PostgreSQL</p>
-    <p>Tests: Jest / Mocha+Chai</p>
-    <p><a href='https://github.com/zuzanna2905/TaskManager/tree/simple'
-      target="_blank" rel="noopener noreferrer"
-      className='f6 fw6 purple'>Click to view Frontend code
-    </a></p>
-    <a href='https://github.com/zuzanna2905/taskManagerAPI'
-      target="_blank" rel="noopener noreferrer"
-      className='f6 fw6 purple'>Click to view server code
-    </a>
-    </div>
-    <div>
-    <img src='' alt=''/>
-    </div>
   </div>
 );
 
 const Travels = () => (
   <div>
-  <div className='w-50-l w-100'>
-    <p className='f4 fw5 purple'>Travels</p>
-    <p className='fw6 dark-green'>Idea</p>
-    <p>A simple responsive page with travel photos.</p>
-    <p>Contact form</p>
-    <p className='fw6 dark-green'>Technologies</p>
-    <p>The app is based on HTML5 & CSS3</p>
-    <p>Photo gallery based on css-grid & flexbox</p>
-    <a href='https://github.com/zuzanna2905/travel'
-      target="_blank" rel="noopener noreferrer"
-      className='f6 fw6 purple'>Click to view code
-    </a>
-    </div>
-    <div>
-    <img src='' alt=''/>
-    </div>
   </div>
 );
 
 const Blog = () => (
   <div>
-  <div className='w-50-l w-100'>
-    <p className='f4 fw5 purple'>Blog</p>
-    <p className='fw6 dark-green'>Idea</p>
-    <p>A server side rendering site with some blog posts.</p>
-    <p>Contact form, About page</p>
-    <p className='fw6 dark-green'>Technologies</p>
-    <p>The app is based on HTML5 & CSS3 (styled-components library)</p>
-    <p>Pages are written in JS & use NextJS</p>
-    <p>No tests</p>
-    <a href='https://github.com/zuzanna2905/blog'
-      target="_blank" rel="noopener noreferrer"
-      className='f6 fw6 purple'>Click to view code
-    </a>
-    </div>
-    <div>
-    <img src='' alt=''/>
-    </div>
   </div>
 );
 
 const SmartBrain = () => (
   <div>
-  <div className='w-50-l w-100'>
-    <p className='f4 fw5 purple'>Smart Brain</p>
-    <p className='fw6 dark-green'>Idea</p>
-    <p>Dockerized React App</p>
-    <p>Use clarifai API to recignize faces on images</p>
-    <p>To use app you have to register and sign in to your account</p>
-    <p>This is a part of Udemy Web Development course</p>
-    <p className='fw6 dark-green'>Technologies</p>
-    <p>Frontend: React, JavaScript, CSS3, HTML5, NodeJS, Tachyons</p>
-    <p>Server Side: JavaScript, NodeJS, ExpressJS</p>
-    <p>Database: PostgreSQL</p>
-    <p>Tests: Mocha/Chai</p>
-    <p>Dockerized</p>
-    <p><a href='https://sleepy-mesa-24434.herokuapp.com/'
-      target="_blank" rel="noopener noreferrer"
-      className='f6 fw6 purple'>Click to view project
-    </a></p>
-    <p><a href='https://github.com/zuzanna2905/facerecognition'
-      target="_blank" rel="noopener noreferrer"
-      className='f6 fw6 purple'>Click to view Frontend code
-    </a></p>
-    <a href='https://github.com/zuzanna2905/facerecognitionAPI'
-      target="_blank" rel="noopener noreferrer"
-      className='f6 fw6 purple'>Click to view server code
-    </a>
-    </div>
-    <div>
-    <img src='' alt=''/>
-    </div>
   </div>
 );
 
 const RoboFriends = () => (
   <div>
-  <div className='w-50-l w-100'>
-    <p className='f4 fw5 purple'>Robo Friends App</p>
-    <p className='fw6 dark-green'>Idea</p>
-    <p>A simple app with some Robots and Search box to filter them</p>
-    <p>This is a part of Udemy Web Development course</p>
-    <p className='fw6 dark-green'>Technologies</p>
-    <p>The app is based on HTML5 & CSS3 (tachyons) & JS</p>
-    <p>App is using React and Redux</p>
-    <p>Tests: Jest/Enzyme</p>
-    <a href='https://robotsfriends.herokuapp.com/'
-      target="_blank" rel="noopener noreferrer"
-      className='f6 fw6 purple'>Click to view project
-    </a>
-    </div>
-      <div>
-      <img src='' alt=''/>
-      </div>
   </div>
 );
 
