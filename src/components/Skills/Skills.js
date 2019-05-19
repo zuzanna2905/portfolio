@@ -17,12 +17,12 @@ const Web = () => (
         <ProgressBar percentage={60} name={'React'}/>
         <ProgressBar percentage={60} name={'Redux'}/>
         <ProgressBar percentage={50} name={'NodeJS'}/>
-        <ProgressBar percentage={40} name={'Webpack'}/>
         <ProgressBar percentage={40} name={'Jest'}/>
         <ProgressBar percentage={40} name={'Mocha/Chai'}/>
+        <ProgressBar percentage={40} name={'Enzyme'}/>
         <ProgressBar percentage={40} name={'NextJS'}/>
+        <ProgressBar percentage={30} name={'Saga'}/>
         <ProgressBar percentage={30} name={'TypeScript'}/>
-        <ProgressBar percentage={20} name={'Enzyme'}/>
       </ul>
       <p></p>
     </div>
@@ -48,11 +48,12 @@ const Programming = () => (
   <p className='f4'>Programming</p>
   <p className='f6'>Skills are scaled compared to number and complexity of academic projects</p>
   <ul className='justify-center f5-ns f6 fw6'>
+    <ProgressBar percentage={80} name={'JavaScript (ES6)'}/>
     <ProgressBar percentage={80} name={'C#'}/>
-    <ProgressBar percentage={80} name={'JS'}/>
     <ProgressBar percentage={80} name={'C++'}/>
     <ProgressBar percentage={60} name={'C'}/>
     <ProgressBar percentage={60} name={'Java'}/>
+    <ProgressBar percentage={50} name={'Ruby/RoR'}/>
     <ProgressBar percentage={40} name={'Python'}/>
     <ProgressBar percentage={20} name={'R'}/>
   </ul>
